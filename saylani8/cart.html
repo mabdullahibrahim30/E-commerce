@@ -1,0 +1,153 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart - Exclusive</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Poppins', sans-serif; }
+    </style>
+</head>
+<body class="bg-white text-black">
+
+    <div class="bg-black text-white text-xs md:text-sm py-3 px-4 flex justify-center items-center relative">
+        <p>Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%! <a href="#" class="underline font-bold ml-2">ShopNow</a></p>
+        <div class="absolute right-4 md:right-20 flex items-center cursor-pointer">
+            <span>English</span>
+            <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"></path></svg>
+        </div>
+    </div>
+
+    <nav class="border-b border-gray-200 py-4">
+        <div class="max-w-7xl mx-auto px-4 flex items-center justify-between">
+            <h1 class="text-2xl font-bold tracking-wider">Exclusive</h1>
+           <nav class="hidden md:flex items-center gap-6 text-sm">
+             <a class="text-gray-700 hover:text-red-600" href="home.html">home</a>
+            <a class="text-gray-700 hover:text-red-600" href="error.html">error</a>
+            <a class="text-gray-700 hover:text-red-600" href="account.html">managing account</a>
+            <a class="text-gray-700 hover:text-red-600" href="sign out.html">sign in or out</a>
+            <a class="text-gray-700 hover:text-red-600" href="contact.html">contact</a>
+            <a class="text-gray-700 hover:text-red-600" href="wishlist.html">wishlist</a>
+            <a class="text-gray-700 hover:text-red-600" href="check out.html">check-out</a>
+            <a class="text-gray-700 hover:text-red-600" href="about.html">About</a>
+            <div class="flex items-center space-x-6">
+                <div class="relative hidden sm:flex items-center bg-gray-100 rounded px-3 py-2">
+                    <input type="text" placeholder="What are you looking for?" class="bg-transparent text-sm focus:outline-none w-52">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+                </div>
+                <div class="flex space-x-4">
+                    <div class="relative">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path></svg>
+                        <span class="absolute -top-1 -right-1 bg-[#DB4444] text-white text-[10px] rounded-full w-4 h-4 flex items-center justify-center">4</span>
+                    </div>
+                    <div class="relative">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                        <span class="absolute -top-1 -right-1 bg-[#DB4444] text-white text-[10px] rounded-full w-4 h-4 flex items-center justify-center">2</span>
+                    </div>
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path></svg>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="max-w-7xl mx-auto px-4 py-20">
+        <nav class="text-sm text-gray-500 mb-20">
+            <a href="#" class="hover:text-black">Home</a> <span class="mx-2">/</span> <span class="text-black">Cart</span>
+        </nav>
+
+        <div class="mb-10 overflow-x-auto">
+            <table class="w-full text-left border-separate border-spacing-y-8">
+                <thead>
+                    <tr class="shadow-sm rounded border border-gray-100">
+                        <th class="p-6 font-normal">Product</th>
+                        <th class="p-6 font-normal">Price</th>
+                        <th class="p-6 font-normal">Quantity</th>
+                        <th class="p-6 font-normal">Subtotal</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="shadow-md rounded border border-gray-50">
+                        <td class="p-6 flex items-center space-x-4">
+                            <div class="relative group">
+                                <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=200&auto=format&fit=crop" class="w-14 h-14 object-contain" alt="Monitor">
+                                <button class="absolute -top-2 -left-2 bg-[#DB4444] text-white rounded-full w-5 h-5 text-[10px] hidden group-hover:flex items-center justify-center">×</button>
+                            </div>
+                            <span class="text-sm">LCD Monitor</span>
+                        </td>
+                        <td class="p-6 text-sm">$650</td>
+                        <td class="p-6">
+                            <input type="number" value="01" class="border rounded p-2 w-16 text-center focus:outline-none">
+                        </td>
+                        <td class="p-6 text-sm">$650</td>
+                    </tr>
+                    <tr class="shadow-md rounded border border-gray-50">
+                        <td class="p-6 flex items-center space-x-4">
+                            <div class="relative group">
+                                <img src="C:\Users\Admin\Downloads\saylani1\saylani1\download.png" class="w-14 h-14 object-contain" alt="Gamepad">
+                                <button class="absolute -top-2 -left-2 bg-[#DB4444] text-white rounded-full w-5 h-5 text-[10px] hidden group-hover:flex items-center justify-center">×</button>
+                            </div>
+                            <span class="text-sm">H1 Gamepad</span>
+                        </td>
+                        <td class="p-6 text-sm">$550</td>
+                        <td class="p-6">
+                            <input type="number" value="02" class="border rounded p-2 w-16 text-center focus:outline-none">
+                        </td>
+                        <td class="p-6 text-sm">$1100</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="flex flex-wrap justify-between gap-4 mb-20">
+            <button class="border-2 border-gray-200 px-12 py-4 rounded font-medium hover:bg-gray-50 transition-colors">Return To Shop</button>
+            <button class="border-2 border-gray-200 px-12 py-4 rounded font-medium hover:bg-gray-50 transition-colors">Update Cart</button>
+        </div>
+
+        <div class="flex flex-col lg:flex-row justify-between items-start gap-10">
+            <div class="flex flex-col sm:flex-row gap-4 w-full lg:w-auto">
+                <input type="text" placeholder="Coupon Code" class="border-2 border-gray-200 rounded px-6 py-4 w-full sm:w-64 focus:outline-none focus:border-gray-400">
+                <button class="bg-[#DB4444] text-white px-10 py-4 rounded font-medium whitespace-nowrap hover:bg-red-600 transition-colors">Apply Coupon</button>
+            </div>
+
+            <div class="border-2 border-black rounded p-8 w-full lg:w-[470px]">
+                <h3 class="text-xl font-medium mb-6">Cart Total</h3>
+                <div class="space-y-4 text-sm">
+                    <div class="flex justify-between border-b border-gray-200 pb-4">
+                        <span>Subtotal:</span>
+                        <span>$1750</span>
+                    </div>
+                    <div class="flex justify-between border-b border-gray-200 pb-4">
+                        <span>Shipping:</span>
+                        <span>Free</span>
+                    </div>
+                    <div class="flex justify-between pb-4">
+                        <span>Total:</span>
+                        <span>$1750</span>
+                    </div>
+                </div>
+                <button class="w-full bg-[#DB4444] text-white py-4 mt-2 rounded font-medium hover:bg-red-600 transition-colors">Procees to checkout</button>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-black text-white pt-20 pb-6">
+        <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-5 gap-10 mb-16">
+            <div class="space-y-4">
+                <h2 class="text-xl font-bold">Exclusive</h2>
+                <h3 class="text-lg font-medium">Subscribe</h3>
+                <p class="text-sm">Get 10% off your first order</p>
+                <div class="relative border border-white rounded p-3 flex items-center">
+                    <input type="email" placeholder="Enter your email" class="bg-transparent text-sm focus:outline-none w-full">
+                    <svg class="w-5 h-5 ml-2 cursor-pointer" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path></svg>
+                </div>
+            </div>
+            </div>
+        <div class="border-t border-gray-800 pt-4 text-center text-gray-500 text-sm">
+            <p>&copy; Copyright Rimel 2022. All right reserved</p>
+        </div>
+    </footer>
+
+</body>
+</html>
+shoppingcar

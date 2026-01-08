@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Wishlist</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-50 text-gray-900">
+  <!-- HEADER -->
+  <header class="border-b">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="font-bold text-xl">Exclusive</h1>
+      <nav class="hidden md:flex items-center gap-6 text-sm">
+        <a class="text-gray-700 hover:text-red-600" href="home.html">home</a>
+        <a class="text-gray-700 hover:text-red-600" href="error.html">error</a>
+        <a class="text-gray-700 hover:text-red-600" href="cart.html">cart</a>
+        <a class="text-gray-700 hover:text-red-600" href="account.html">managing account</a>
+        <a class="text-gray-700 hover:text-red-600" href="sign out.html">sign in or out</a>
+        <a class="text-gray-700 hover:text-red-600" href="contact.html">contact</a>
+        <a class="text-gray-700 hover:text-red-600" href="check out.html">check-out</a>
+        <a class="text-gray-700 hover:text-red-600" href="about.html">About</a>
+    </div>
+  </header>
+
+  <!-- BREADCRUMB -->
+  <div class="max-w-6xl mx-auto px-4 py-6 text-sm text-gray-500">
+    Home / <span class="text-black">My Account</span>
+  </div>
+
+
+  <!-- Container -->
+  <div class="max-w-7xl mx-auto px-4 py-10">
+
+    <!-- Wishlist Header -->
+    <div class="flex items-center justify-between mb-6">
+      <h2 class="text-xl font-semibold">Wishlist (4)</h2>
+      <button class="border border-gray-300 px-4 py-2 rounded hover:bg-black hover:text-white transition">
+        Move All To Bag
+      </button>
+    </div>
+
+    <!-- Wishlist Items -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+
+      <!-- Card -->
+      <div class="bg-white p-4 rounded shadow relative">
+        <span class="absolute top-3 left-3 bg-red-500 text-white text-xs px-2 py-1 rounded">-35%</span>
+        <button class="absolute top-3 right-3 text-gray-400 hover:text-red-500">🗑</button>
+
+        <img src="bag.png" class="w-full h-40 object-contain mb-4" />
+
+        <h3 class="text-sm font-medium">Gucci duffle bag</h3>
+        <div class="flex gap-2 mt-1">
+          <span class="text-red-500 font-semibold">$960</span>
+          <span class="line-through text-gray-400 text-sm">$1160</span>
+        </div>
+
+        <button class="mt-4 w-full bg-black text-white py-2 rounded hover:bg-gray-800">
+          Add To Cart
+        </button>
+      </div>
+
+      <!-- Repeat Card -->
+      <div class="bg-white p-4 rounded shadow relative">
+        <button class="absolute top-3 right-3 text-gray-400 hover:text-red-500">🗑</button>
+        <img src="speaker.png" class="w-full h-40 object-contain mb-4" />
+        <h3 class="text-sm font-medium">RGB Liquid CPU Cooler</h3>
+        <span class="text-red-500 font-semibold">$1960</span>
+        <button class="mt-4 w-full bg-black text-white py-2 rounded">
+          Add To Cart
+        </button>
+      </div>
+
+      <div class="bg-white p-4 rounded shadow relative">
+        <button class="absolute top-3 right-3 text-gray-400 hover:text-red-500">🗑</button>
+        <img src="asthetic controller.png" class="w-full h-40 object-contain mb-4" />
+        <h3 class="text-sm font-medium">G911 Shooter USB Gamepad</h3>
+        <span class="text-red-500 font-semibold">$550</span>
+        <button class="mt-4 w-full bg-black text-white py-2 rounded">
+          Add To Cart
+        </button>
+      </div>
+
+      <div class="bg-white p-4 rounded shadow relative">
+        <button class="absolute top-3 right-3 text-gray-400 hover:text-red-500">🗑</button>
+        <img src="jacket.png" class="w-full h-40 object-contain mb-4" />
+        <h3 class="text-sm font-medium">Quilted Satin Jacket</h3>
+        <span class="text-red-500 font-semibold">$750</span>
+        <button class="mt-4 w-full bg-black text-white py-2 rounded">
+          Add To Cart
+        </button>
+      </div>
+
+    </div>
+
+    <!-- Just For You -->
+    <div class="flex items-center justify-between mt-12 mb-6">
+      <h2 class="text-xl font-semibold">Just For You</h2>
+      <button class="border px-4 py-2 rounded hover:bg-black hover:text-white">
+        See All
+      </button>
+    </div>
+
+    <!-- Recommendations -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+
+      <div class="bg-white p-4 rounded shadow">
+        <img src="laptop.png" class="h-40 w-full object-contain mb-4" />
+        <h3 class="text-sm font-medium">ASUS FHD Gaming Laptop</h3>
+        <span class="text-red-500 font-semibold">$960</span>
+        <button class="mt-4 w-full bg-black text-white py-2 rounded">
+          Add To Cart
+        </button>
+      </div>
+
+      <div class="bg-white p-4 rounded shadow">
+        <img src="monitor.png" class="h-40 w-full object-contain mb-4" />
+        <h3 class="text-sm font-medium">IPS LCD Gaming Monitor</h3>
+        <span class="text-red-500 font-semibold">$1160</span>
+        <button class="mt-4 w-full bg-black text-white py-2 rounded">
+          Add To Cart
+        </button>
+      </div>
+
+      <div class="bg-white p-4 rounded shadow">
+        <span class="inline-block bg-green-500 text-white text-xs px-2 py-1 rounded mb-2">NEW</span>
+        <img src="controller.png" class="h-40 w-full object-contain mb-4" />
+        <h3 class="text-sm font-medium">HAVIT HV-G92 Gamepad</h3>
+        <span class="text-red-500 font-semibold">$560</span>
+        <button class="mt-4 w-full bg-black text-white py-2 rounded">
+          Add To Cart
+        </button>
+      </div>
+
+      <div class="bg-white p-4 rounded shadow">
+        <img src="keyboard.png" class="h-40 w-full object-contain mb-4" />
+        <h3 class="text-sm font-medium">AK-900 Wired Keyboard</h3>
+        <span class="text-red-500 font-semibold">$200</span>
+        <button class="mt-4 w-full bg-black text-white py-2 rounded">
+          Add To Cart
+        </button>
+      </div>
+
+    </div>
+
+  </div>
+  <!-- FOOTER -->
+  <footer class="bg-black text-gray-300">
+    <div class="max-w-7xl mx-auto px-6 py-12 grid md:grid-cols-5 gap-8 text-sm">
+      <div>
+        <h3 class="text-white font-bold mb-3">Exclusive</h3>
+        <p>Subscribe</p>
+        <p class="text-gray-400">Get 10% off your first order</p>
+      </div>
+
+      <div>
+        <h4 class="text-white font-semibold mb-3">Support</h4>
+        <p>Dhaka, Bangladesh</p>
+        <p>exclusive@gmail.com</p>
+        <p>+88015-88888-9999</p>
+      </div>
+
+      <div>
+        <h4 class="text-white font-semibold mb-3">Account</h4>
+        <p>My Account</p>
+        <p>Login / Register</p>
+        <p>Cart</p>
+        <p>Wishlist</p>
+      </div>
+
+      <div>
+        <h4 class="text-white font-semibold mb-3">Quick Link</h4>
+        <p>Privacy Policy</p>
+        <p>Terms Of Use</p>
+        <p>FAQ</p>
+        <p>Contact</p>
+      </div>
+
+      <div>
+        <h4 class="text-white font-semibold mb-3">Download App</h4>
+        <p class="text-gray-400">Save $3 with App New User Only</p>
+      </div>
+    </div>
+
+    <div class="text-center text-gray-500 text-xs py-4 border-t border-gray-700">
+      © Copyright Exclusive 2024. All right reserved
+    </div>
+  </footer>
+</body>
+
+</html>
